@@ -1,0 +1,46 @@
+body {
+  background-image: url("/images/gold-foil-texture.jpg") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+header {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  background-image: url("/images/header-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  height: 540px; }
+  @media (max-width: 600px) {
+    header {
+      height: 275px; } }
+
+.header-logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%; }
+
+.navigation {
+  padding-top: 25px;
+  padding-bottom: 5px;
+  background-color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+  .navigation li {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px; }
+    .navigation li a {
+      color: #000;
+      text-decoration: none;
+      border-bottom: 2px solid transparent;
+      padding-bottom: 5px;
+      transition: all .3s ease-in-out; }
+    .navigation li:hover a, .navigation li:active a {
+      border-bottom: 2px solid #000; }
+
+.content {
+  height: 700px;
+  background-color: #fff; }
